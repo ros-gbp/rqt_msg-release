@@ -1,0 +1,13 @@
+Source: ros-melodic-rqt-msg
+Section: misc
+Priority: extra
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://wiki.ros.org/rqt_msg
+Standards-Version: 3.9.2
+
+Package: ros-melodic-rqt-msg
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-rospkg, ros-melodic-python-qt-binding (>= 0.2.19), ros-melodic-roslib, ros-melodic-rosmsg, ros-melodic-rospy, ros-melodic-rqt-console, ros-melodic-rqt-gui, ros-melodic-rqt-gui-py, ros-melodic-rqt-py-common
+Description: A Python GUI plugin for introspecting available ROS message types.
+ Note that the msgs available through this plugin is the ones that are stored on your machine, not on the ROS core your rqt instance connects to.
