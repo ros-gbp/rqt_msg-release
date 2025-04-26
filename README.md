@@ -1,3 +1,26 @@
+## rqt_msg (noetic) - 0.4.12-1
+
+The packages in the `rqt_msg` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic rqt_msg` on `Sat, 26 Apr 2025 22:10:51 -0000`
+
+The `rqt_msg` package was released.
+
+Version of package(s) in repository `rqt_msg`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_msg.git
+- release repository: https://github.com/ros-gbp/rqt_msg-release.git
+- rosdistro version: `0.4.11-1`
+- old version: `0.4.11-1`
+- new version: `0.4.12-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## rqt_msg (noetic) - 0.4.11-1
 
 The packages in the `rqt_msg` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic rqt_msg` on `Thu, 10 Apr 2025 00:11:40 -0000`
